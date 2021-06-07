@@ -13,7 +13,7 @@ struct ContentView: View {
     @State private var inputType = ""
     @State private var outputType = ""
     
-    let lenghtTypes = ["meters", "kilometers", "feet", "yards", "miles"]
+    let lenghtTypes = ["meters", "kilometers", "feet"]
     
     var result: Double {
         
